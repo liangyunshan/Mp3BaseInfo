@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/album">
+        <file>img/testDecro.jpeg</file>
+        <file>img/DefaultAlbum.png</file>
+    </qresource>
+</RCC>
