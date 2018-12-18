@@ -118,11 +118,6 @@ void TableModel::setTableView(QTableView *view)
 {
     if(!view)
         return;
-//    view->horizontalHeader()->setSectionResizeMode(PATH,QHeaderView::Interactive);
-//    view->horizontalHeader()->setSectionResizeMode(TITLE,QHeaderView::ResizeToContents);
-//    view->horizontalHeader()->setSectionResizeMode(ARTIST,QHeaderView::Interactive);
-//    view->horizontalHeader()->setSectionResizeMode(ALBUM,QHeaderView::ResizeToContents);
-//    view->horizontalHeader()->setSectionResizeMode(DURATION,QHeaderView::Fixed);
 
      view->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
