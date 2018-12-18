@@ -19,6 +19,7 @@ public:
 
 private:
     void praseID3ForMp3File(const QString &filePath);
+    bool createAlbumFolder();
 
 private slots:
     void chooseTargetMp3File(bool);
@@ -26,6 +27,7 @@ private slots:
 private:
     Ui::Mp3InfoWidget *ui;
     TableModel *dataModel;
+    QString albumPath;
 };
 
 #endif // MP3INFOWIDGET_H
